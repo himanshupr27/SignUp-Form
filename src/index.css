@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background: url('https://images.unsplash.com/photo-1717479472303-e09bc657578e?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
+.box{
+  display: flex;
+  justify-content: center;
+}
+.form-div{
+  padding: 2vmax;
+  margin: 1vmax 5vmax;
+  box-shadow: 0 0 5px 0 rgb(147, 147, 147);
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(109, 109, 109, 0.242);
+}
+.form-div h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 172, 158);
+  }
+  .form-div h1 span{
+  color: rgb(255, 255, 255);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+form input{
+  font:400 1.5vmax "Roboto";
+  margin: 0.5vmax;
+  padding: 0.5vmax;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.715);
+}
+.password{
+  width:85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.826);
+  border-radius: 10px;
+  margin: 0.5vmax;
+}
+.password input{
+  width:100%;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0);
+  padding:0.5vmax
+}
+.password button{
+  margin-right: 0.5vmax ;
+  border: none;
+  cursor: pointer;
+}
+.select-div{
+  width: 100%;
+  display: flex;
+}
+.form-div select{
+  margin: 0.5vmax;
+  padding: 0.5vmax;
+  background-color:rgba(255, 255, 255, 0.715) ;
+  border: none;
+  border-radius: 10px;
+  font:400 1.5vmax "Roboto";
+  width: 50%;
+ 
+}
+.errorMsg{
+  color: rgb(255, 34, 34);
+  width: 56%;
+  font: 400 0.9vmax "Cursive";
+}
+.signup{
+  margin-right: 0.5vmax ;
+  border: none;
+  cursor: pointer;
+  padding: 1vmax;
+  border-radius: 20px;
+  background-color: rgba(215, 60, 33, 0.735);
+  transition: all 0.3s ease;
+  width: 7vmax;
+  margin-top: 1vmax;
+}
+.signup:hover{
+  transform: scale(1.1);
+  background-color: rgba(228, 73, 46, 0.829);
+}
+.details{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details .text{
+  font: 400 1vmax;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.d-flex{
+  display: flex;
 }
